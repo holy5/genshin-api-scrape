@@ -15,9 +15,9 @@ app.use(cors());
 app.use(bodyParser.json({ extended: true, limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: true, limit: "50mb" }));
 
-app.use("/api/characters", characterRoute);
-app.use("/api/weapons", weaponRoute);
-app.use("/api/artifacts", artifactRoute);
+app.use("/api/v1/characters", characterRoute);
+app.use("/api/v1/weapons", weaponRoute);
+app.use("/api/v1/artifacts", artifactRoute);
 
 mongoose.connect(process.env.MONGO_URL, () => {
 	app.listen(process.env.PORT, () => {
