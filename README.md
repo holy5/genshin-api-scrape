@@ -13,7 +13,7 @@
 
 `GET https://api-genshinimpact.herokuapp.com/api/v1/characters/name`
 
-_Where name is the name of the character_
+_Where name is the name of the character_\
 _Name can be whitespace or underline_
 
 **Example**:
@@ -41,7 +41,7 @@ _The first letter must be uppercase_
 
 `GET https://api-genshinimpact.herokuapp.com/api/v1/weapons/name`
 
-_Where name is the name of the weapon_
+_Where name is the name of the weapon_\
 _Name can be whitespace or underline_
 
 **Example**:
@@ -60,7 +60,7 @@ _Name can be whitespace or underline_
 
 `GET https://api-genshinimpact.herokuapp.com/api/v1/artifacts/name`
 
-_Where name is the name of the artifact_
+_Where name is the name of the artifact_\
 _Name can be whitespace or underline_
 
 **Example**:
