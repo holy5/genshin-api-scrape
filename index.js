@@ -21,6 +21,6 @@ app.use("/api/artifacts", artifactRoute);
 
 mongoose.connect(process.env.MONGO_URL, () => {
 	app.listen(process.env.PORT, () => {
-		console.log("Server is running on port 6969");
+		console.log("Server is running...");
 	});
 });
